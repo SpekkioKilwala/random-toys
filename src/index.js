@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import { testBOM} from './bom.js';
-import Elo from '@pelevesque/elo'
+import { testBOM } from './bom.js';
+import { combatants } from './matchup.js';
 
 // function inputBox(_id) {
 // 	const element = document.createElement('div');
@@ -28,9 +28,8 @@ import Elo from '@pelevesque/elo'
 // document.body.appendChild(inputBox("rawtext"));
 // document.body.appendChild(inputBox("sequence"));
 
-const elo = new Elo();
-console.log(elo.getExpectedScore(2000, 1500));
+console.log(combatants)
 
-document.getElementById('rawtext').addEventListener('change', pareSequence);
+// document.getElementById('rawtext').addEventListener('change', pareSequence);
 
 
