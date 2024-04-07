@@ -22,4 +22,4 @@ console.log(elo.getExpectedScore(2000, 1500));
 const outcomeObject = elo.getOutcome(2000, 1600, 0);
 console.log(outcomeObject);
 
-export { combatants };
+export { combatants, elo };
